@@ -1,4 +1,4 @@
-package com.lwt.lib.common;
+package com.lwt.lib.app;
 
 import org.junit.Test;
 

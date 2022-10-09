@@ -12,6 +12,6 @@ dependencyResolutionManagement {
         mavenCentral()
     }
 }
-rootProject.name = "MyCommonGitee"
+rootProject.name = "commonGithub"
+include ':lwtCommon'
 include ':app'
-include ':common'

@@ -1,4 +1,4 @@
-package com.lwt.lib.common;
+package com.lwt.lib.lwtcommon;
 
 import android.content.Context;
 
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("com.lwt.lib.common", appContext.getPackageName());
+        assertEquals("com.lwt.lib.lwtcommon.test", appContext.getPackageName());
     }
 }
